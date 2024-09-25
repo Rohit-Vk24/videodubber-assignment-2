@@ -1,6 +1,6 @@
 "use client"; // Marks this as a client-side component
 import { useState } from 'react';
-import './SideNavbar.css'; // Import the CSS
+import './sidenavbar.css'; // Import the CSS
 
 
 export default function SideNavbar() {
