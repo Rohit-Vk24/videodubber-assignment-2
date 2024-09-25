@@ -1,0 +1,56 @@
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 12, 0.911);
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    color: rgb(255, 255, 255);
+    gap: 5vw;
+    position: sticky;
+    transform: translateX(40%);
+    top: 20vh;
+  }
+
+  .heading{
+    position: relative;
+    color: rgb(255, 255, 255);
+    transform: translateX(35%);
+    font-size: 2em;   
+    top: 33vh;
+  }
+
+  .navbar h3:hover{
+    color: rgba(255, 255, 255, 0.703);
+    cursor: pointer;
+  } 
+
+  .heading p{
+    position: relative;
+    color: rgba(255, 255, 255, 0.628);
+    top: 3vh;
+    transform: translateX(-10%); 
+  }
+
+  .button Button{
+    position: relative;
+    top: 45vh;
+    left: 43vw;
+    border: 3px solid rgb(101, 42, 227);
+    border-radius: 40px;
+    height: 50px;
+    width: 15vw;
+    background-color: rgba(0, 0, 0, 0.281);
+    color: aliceblue;
+    font-size: large ;
+
+  }
+
+  .button Button:hover{
+    color: rgba(255, 255, 255, 0.779);
+    cursor: pointer;
+  }
+
